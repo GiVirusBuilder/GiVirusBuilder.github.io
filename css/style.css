@@ -19,7 +19,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background: linear-gradient(45deg, rgb(255, 232, 0), rgb(183, 153, 18));
+    background: linear-gradient(45deg, rgb(211, 132, 14), rgb(199, 88, 31));
     overflow-x: hidden;
 }
 .sidenav h1 {
@@ -45,7 +45,7 @@ body {
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
-.sidenav a {
+.sidenav .menu-tab a{
 	background: rgba(0, 0, 0, 0.2);
 	margin: 10px;
 	margin-top: 20px;
@@ -59,7 +59,7 @@ body {
 	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
-.sidenav a:hover {
+.sidenav .menu-tab a:hover {
     opacity: 70%;
 }
 
@@ -115,4 +115,16 @@ body {
 	padding: 10px;
 	padding-top: 30px;
 	float: right;
+}
+
+.sidenav .ad-img {
+	margin-left: 10px;
+	margin-top: 25px;
+	box-shadow: none; 
+	width: 300px;
+
+}
+
+.sidenav .ad-img:hover {
+	opacity: 70%;
 }
