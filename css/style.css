@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap');
+
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+	font-family: font-family: 'Roboto', sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 320px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(45deg, rgb(255, 232, 0), rgb(183, 153, 18));
+    overflow-x: hidden;
+}
+.sidenav h1 {
+	text-align: center;
+	color: white;
+	cursor: default;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 35px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 0px;
+	background: rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.sidenav p {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.sidenav img {
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.sidenav a {
+	background: rgba(0, 0, 0, 0.2);
+	margin: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+	text-align: left;
+    padding: 6px 8px 6px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f1f1f1;
+    display: block;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.sidenav a:hover {
+    opacity: 70%;
+}
+
+
+.content {
+    margin-left: 360px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+.content h2 {
+	padding-bottom: 20px;
+}
+
+.content li {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.download-tab p {
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.about-tab {
+	background: none;
+	margin-right: 100px;
+}
+
+.btn {
+	text-align: center;
+	background: #18c724;
+	color: white;
+	cursor: pointer;
+	padding: 100px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	
+}
+
+.btn:hover {
+	opacity: 70%;
+}
+
+.footer {
+	background: none;
+	color: black;
+	padding: 10px;
+	padding-top: 30px;
+	float: right;
+}
